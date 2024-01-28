@@ -15,6 +15,11 @@ Predicting the price of bulldozers involves analyzing a multitude of features, r
 The dataset used in this project is sourced from the Kaggle Bluebook for Bulldozers competition: <br>
 [Bluebook for Bulldozers - Kaggle Competition Data](https://www.kaggle.com/competitions/bluebook-for-bulldozers/data)
 
+There are mainly 3 datasets in this project:
+- **Train.csv:** The training set contains data through the end of 2011.
+- **Valid.csv:** The validation set contains data from January 1, 2012, to April 30, 2012.
+- **Test.csv:** The test set contains data from May 1, 2012, to November 2012.
+
 ## Data Preprocessing
 
 The original dataset had a significant amount of missing data, requiring careful handling to ensure the quality and reliability of the machine-learning model. The following preprocessing steps were undertaken:
